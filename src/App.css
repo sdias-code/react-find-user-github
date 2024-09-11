@@ -1,38 +1,64 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.box-content{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: column;
+  width: 900px;
+  margin: 0 auto;
+  background-color: rgb(197, 219, 241);
+  padding: 25px;
 }
 
-.App-link {
-  color: #61dafb;
+.box-find-user{  
+  width: 600px;
+  background-color: #f1f1f1;
+  margin: 0 auto;
+  padding-left: 45px;
+  padding-bottom: 25px;  
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.find-user{
+  border-radius: 40px;
+  width: 300px;
+  border: 1px solid #3e88dd;
+  padding: 15px;
+  font-size: 15px;
+  color: rgb(61, 60, 58);
+  
+}
+
+.btn-find-user{
+  width: 150px;
+  border-radius: 40px;
+  border: 1px solid #3e88dd;
+  margin-left: 20px;
+  padding: 15px;
+  font-size: 15px;
+  color: rgb(61, 60, 58);
+  background-color: rgb(197, 219, 241);
+}
+
+.btn-find-user:hover{
+  background-color: rgb(119, 180, 240);
+  color: rgb(233, 242, 250);
+}
+
+.box-repo{  
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 15px;
+  padding-left: 45px;
+  padding-bottom: 15px;
+  background-color: #f1f1f1;
+}
+
+.repo-container{  
+  margin: 0 auto;
+}
+
+.box-repo-item{
+  width: 550px;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #d6cece;
 }
