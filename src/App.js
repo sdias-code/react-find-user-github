@@ -37,8 +37,8 @@ function App() {
         </button>
       </div>
 
-      <div className="box-repo">
-        {userData && (
+      {userData && (
+        <div className="box-repo">
           <div className="repo-container">
             <div className="box-repo-item">
               <h2>{userData.name}</h2>
@@ -61,8 +61,8 @@ function App() {
               </div>
             ))}
           </div>
-        )}
-      </div>
+        </div>
+      )}
     </div>
   );
 }
